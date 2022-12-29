@@ -1,23 +1,33 @@
-# deep value investing
+# Anáslise de Ativos da B3 com base na formulá de grandes investidores
 
-Esse software calcula o deep value investing das ações da bolsa brasileira gerando um arquivo `.csv` com o resultado.
-Ele é baseada no repositório [phoemur/fundamentus](https://github.com/phoemur/fundamentus) que fez web scraping da [fundamentus](http://www.fundamentus.com.br) para obter esses dados.
+Esse script faz um WebScraping nos sites  [status Invest](http://www.statusinvest.com.br) e [fundamentus](http://www.fundamentus.com.br) para obter esses dados, 
+e usa a Biblioteca Fundamentus, gerando um arquivo de excel com o ranking de acordo com as 2 formualas selecionando 10 ações em cada
 
 ## Etapas
 
-0. [X] Efetuar web scrapingg na página da fundamentus para obter ações da bolsa brasileira
-1. [X] Excluir empresas com EBIT negativo
-2. [X] Excluir empresas com liquidez diária muito baixa
-3. [X] Excluir bancos e seguradoras
-4. [X] Excluir empresas em recuperação judicial
-5. [X] Criar ranking por Earning Yield
-6. [X] Gerar csv a partir dos dados processados
+0. [X] Fazer Webscraping dados no site www.statusinvest.com.br
+1. [X] Fazer Webscraping dados de Proventos no site www.fundamentus.com.br
+2. [X] Capturar setores da bolsa usando a biblioteca fundamentos
+3. [X] Calcular ranking de acoes com base na fórmula Magic Formula Joel Greenblatt
+4. [X] Calcular ranking de acoes com base na fórmula de Decio Bazin
+5. [X] Interpretação dos resultados (Conclusão)
+
+
+
+
+
+
 
 ## Requerimentos
 Python >= 3
 
-## Instalação
-Nenhuma instalação é necessária e todo pacote se encontra na biblioteca padrão.
+## Bibliotecas
+* import warnings
+* import requests
+* import pandas as pd
+* import numpy as np
+* import json
+* import fundamentus
+* import ast
 
-## Utilização
-`python3 dvi.py`
+
