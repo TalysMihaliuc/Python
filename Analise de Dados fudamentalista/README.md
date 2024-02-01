@@ -8,8 +8,8 @@ e usa a Biblioteca Fundamentus, gerando um arquivo de excel com o ranking de aco
 0. [X] Fazer Webscraping dados no site www.statusinvest.com.br
 1. [X] Fazer Webscraping dados de Proventos no site www.fundamentus.com.br
 2. [X] Capturar setores da bolsa usando a biblioteca fundamentos
-3. [X] Calcular ranking de acoes com base na fórmula Magic Formula Joel Greenblatt
-4. [X] Calcular ranking de acoes com base na fórmula de Decio Bazin
+3. [X] Calcular ranking de ações com base na fórmula Magic Formula Joel Greenblatt
+4. [X] Calcular ranking de ações com base na fórmula de Decio Bazin
 5. [X] Interpretação dos resultados (Conclusão)
 
 
